@@ -1,0 +1,53 @@
+.ml-2 {
+    margin-left: 2rem;
+  }
+  
+  .active {
+    border-bottom: 2px solid var(--theme-link-active);
+  }
+  .btn {
+    color: var(--theme-btn-color);
+    border: solid 1px var(--theme-btn-border);
+    background-color: var(--theme-bg);
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+  }
+  
+  .btn:hover {
+    background-color: var(--theme-btn-hover-bg);
+    color: var(--theme-header);
+    transition: all 0.2s ease-in;
+  }
+  
+  .tag-line {
+    font-family: "Space Mono", monospace;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    color: var(--theme-text-tag);
+  }
+  
+  .main-line {
+    font-weight: 900;
+    color: var(--theme-header);
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+  }
+  
+  .sub-line {
+    color: var(--theme-sub-header);
+  }
+  
+  .header {
+    font-family: "Space Mono", monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+    color: var(--theme-text-tag);
+  }
+  

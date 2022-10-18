@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root{
+  --theme-bg: #0a192f;
+  --theme-text-tag: rgb(100, 255, 218);
+  --theme-text: #adb8d6;
+  --theme-header: #ccd6f6;
+  --theme-sub-header: #8892b0;
+  --theme-hover: #34a56f;
+  --theme-btn-border: #34a56f;
+  --theme-btn-color: #34a56f;  
+  --theme-btn-hover-bg: #34a56f;
+  --theme-btn-hover-color: #ffff;
+  --theme-link-active: #34a56f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: var(--theme-text);
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background-color: var(--theme-bg);
+}
+
+html {
+  font-size: 10px;
+}
